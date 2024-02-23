@@ -10,24 +10,24 @@
 <body>
 <div class="container">
 	<div class="card">
-	<h5 class="CRUD">CRUD</h5>
-	  <div class="card-body">
-		<h5 class="CRUD">ALUMNOS</h5>
+	<h1 class="display-2" style="text-align: center;">CRUD</h5>
+	  <div class="card-body" style="text-align: center;">
+		<h5 class="CRUD" style="text-align: center;">ALUMNOS</h5>
 		<!--./alumnos?=45-->
-		<a href="./views/alumnos.php" class="btn btn-success">Listar alumnos</a>
+		<a href="./views/alumnos.php" class="btn btn-primary">Listar alumnos</a>
 		<a href="./views/alumnosAlta.php" class="btn btn-success">Alta alumnos</a>
-		<a href="./views/alumnosDel.php" class="btn btn-success">Baja alumnos</a>
-		<a href="./views/alumnosBuscar.php" class="btn btn-success">Buscar alumnos</a>
-		<a href="./views/alumnosModificar.php" class="btn btn-success">Modificar alumnos</a>
+		<a href="./views/alumnosDel.php" class="btn btn-danger">Baja alumnos</a>
+		<a href="./views/alumnosBuscar.php" class="btn btn-info">Buscar alumnos</a>
+		<a href="./views/alumnosModificar.php" class="btn btn-warning">Modificar alumnos</a>
 	  </div>
-	  <div class="card-body">
-		<h5 class="CRUD">POFESORES</h5>
+	  <div class="card-body" style="text-align: center;">
+		<h5 class="CRUD" style="text-align: center;">POFESORES</h5>
 		<!--./profesores?=45-->
-		<a href="./views/profesores.php" class="btn btn-success">Listar profesores</a>
+		<a href="./views/profesores.php" class="btn btn-primary">Listar profesores</a>
 		<a href="./views/profesoresAlta.php" class="btn btn-success">Alta profesores</a>
-		<a href="./views/profesoresDel.php" class="btn btn-success">Baja profesores</a>
-		<a href="./views/profesoresBuscar.php" class="btn btn-success">Buscar profesores</a>
-		<a href="./views/profesoresModificar.php" class="btn btn-success">Modificar profesores</a>
+		<a href="./views/profesoresDel.php" class="btn btn-danger">Baja profesores</a>
+		<a href="./views/profesoresBuscar.php" class="btn btn-info">Buscar profesores</a>
+		<a href="./views/profesoresModificar.php" class="btn btn-warning">Modificar profesores</a>
 	  </div>
 	</div>
 </div>
